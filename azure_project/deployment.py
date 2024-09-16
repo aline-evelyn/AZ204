@@ -31,6 +31,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': conn_str_params['dbname'],
         'HOST': conn_str_params['host'],
+        'PORT': conn_str_params['port'],
         'USER': conn_str_params['user'],
         'PASSWORD': conn_str_params['password'],
     }
